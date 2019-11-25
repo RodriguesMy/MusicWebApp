@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<!--REFERENCES-->
+<!--
+******************************************************************
+
+1) W3schools.com. (2019). CSS Styling Tables. [online] Available at: 
+https://www.w3schools.com/css/css_table.asp [Accessed 22 Nov. 2019].
+
+2) W3schools.com. (2019). How To Create an Accordion. [online] Available at: 
+https://www.w3schools.com/howto/howto_js_accordion.asp [Accessed 22 Nov.how t 2019].
+
+3) W3schools.com. (2019). How To Create a Fixed Menu. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp [Accessed 23 Nov. 2019].
+
+4) W3schools.com. (2019). How To Create a Sticky Element. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_sticky_element.asp [Accessed 25 Nov. 2019].
+
+5) Code Boxx. (2019). 3 Steps Simple Responsive Accordion With Pure CSS - Code Boxx. [online] 
+Available at: https://code-boxx.com/simple-responsive-accordion-pure-css/ [Accessed 25 Nov. 2019].
+
+6) W3schools.com. (2019). W3Schools Online Web Tutorials. [online] 
+Available at: https://www.w3schools.com/ [Accessed 25 Nov. 2019].
+
+For the theme of the app I am using mostly black and #DB53FB colour since I consider them as 
+an appealing compination. Additionally, #DB53FB is a client requirement, but it is also makes the 
+app more engaging, warm, and welcoming
+
+******************************************************************
+
+-->
+<html lang="en">
+<head>
+<title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!--LOGO IMAGE-->
+<!-- STICKY IMAGE START
+REFERENCES:
+
+W3schools.com. (2019). How To Create a Sticky Element. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_sticky_element.asp [Accessed 25 Nov. 2019].
+
+-->
+<div class="sticky"><img class="logoimg" src="logo.png" alt="Sound Club Logo Icon" width="100%" height="120"></div>
+
+<!-- STICKY IMAGE END -->
+
+<!--WELCOMING MESSAGE-->
+<div class="textmessage">Welcome to <b class="purplecolour">Sound Club</b>!</div>
+<!--WELCOME MESSAGE END-->
+
+<!--FEATURED ARTIST START-->
+<div class="featured">
+<div class="textmessage">Featured artist: <b class="purplecolour">Monarchy</b>!</div>
+<img src="black-and-white-2564630_1920.jpg" alt="Person with guitar" width=100% height="200">
+<div class="textmessage"><b class="purplecolour">Monarchy</b> are a British rock band made up of  <b class="purplecolour">Fred Venus</b>,  <b class="purplecolour">Bryan June</b>,  <b class="purplecolour">Roger Cobbler</b> and  <b class="purplecolour">Jon Vicars</b>. </div>
+</div>
+<!--FEATURED ARTIST END-->
+
+<!--PLANS TABLE START
+REFERENCES:
+
+W3schools.com. (2019). CSS Styling Tables. [online] Available at: 
+https://www.w3schools.com/css/css_table.asp [Accessed 22 Nov. 2019].
+
+-->
+<div class="textmessage">Select your <b class="purplecolour">plan</b>!</div>
+<table>
+ <tr class="titles">
+    <th>Plan</th>
+    <th>Price</th> 
+    <th>Benefits</th>
+  </tr>
+  <tr class="gold_level">
+    <td >Gold Level</td>
+    <td>£4.99</td>
+    <td class="details">Unlimited access to our entire catalogue</td>
+  </tr>
+   <tr class="silver_level">
+    <td >Silver Level</td>
+    <td>£2.99</td>
+    <td class="details">Unlimited usage with ad support</td>
+  </tr>
+   <tr class="platinum_level">
+    <td >Platinum Level</td>
+    <td>£6.99</td>
+    <td class="details">Unlimited music streaming on unlimited devices</td>
+  </tr>
+   <tr class="family_pack">
+    <td >Family Pack</td>
+    <td>£9.99</td>
+    <td class="details">Up to 4 separate Gold accounts in one pack</td>
+  </tr>
+</table>
+
+<!--PLANS TABLE END -->
+<br>
+<!--APP NAME--><div class="name">Sound Club</div>
+
+<!--LIST HOME MENU START
+REFERENCES:
+
+ W3schools.com. (2019). How To Create a Fixed Menu. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp [Accessed 23 Nov. 2019].
+
+-->
+<ul class="homeList">
+  <li class="homeli"><a href="Assignment.html">Home</a></li>
+  <li class="homeli"><a href="music.html">Music</a></li>
+  <li class="homeli"><a href="artists.html">Artists</a></li>
+  <li class="homeli"><a href="about.html">About</a></li>
+</ul>
+<!--LIST MENU ENDS-->
+<!--Breaks so that the screen is not hid when scrolled all the way to the end because of the menu-->
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

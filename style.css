@@ -1,0 +1,242 @@
+/*BODY*/
+body{
+	background-color:black;
+	color:white;
+	font-family: Sans-Serif;
+}
+/*BODY END*/
+
+/*--LIST MENY START
+REFERENCES:
+ W3schools.com. (2019). How To Create a Fixed Menu. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp [Accessed 23 Nov. 2019].
+*/
+
+.homeList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  position:absolute;                  
+  bottom:0;                          
+  left:0;   
+  overflow: hidden;
+   position: fixed;
+   width: 100%;
+}
+
+.homeli {
+  float: left;
+  width:25%
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+/*LIST MENY END*/
+
+/*LOGO IMAGE START*/
+.logoimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/*LOGO IMAGE END*/
+
+/*STICKY IMAGE START
+REFERENCES:
+
+W3schools.com. (2019). How To Create a Sticky Element. [online] Available at: 
+https://www.w3schools.com/howto/howto_css_sticky_element.asp [Accessed 25 Nov. 2019].
+
+*/
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+/*STICKY IMAGE END*/
+
+/*LOGO NAME*/
+.name{
+	text-align: center;
+	font-size:40;
+	padding-top:5%;
+	margin-left: auto;
+	margin-right: auto;
+	color:#DB53FB;
+	font-style: oblique;
+	border-top: 6px dotted #DB53FB;
+
+}
+/*LOGO NAME ENDS*/
+
+/*PLANS TABLE
+REFERENCES:
+W3schools.com. (2019). CSS Styling Tables. [online] Available at: 
+https://www.w3schools.com/css/css_table.asp [Accessed 22 Nov. 2019].
+
+*/
+.purplecolour{
+	font-style: oblique;
+	color:#DB53FB;
+}
+
+.textmessage{
+	text-align: center;
+  width: 92%;
+  padding:10px;
+font-size:25;
+}
+table{
+	width:90%;
+	 border-collapse: collapse;
+	 text-align: center;
+	margin-left:18px;
+	 width: 90%;
+}
+
+table, td, th {
+  border: 1px solid black;
+ height: 90px;
+}
+.gold_level{
+	background-color:gold;
+	color:black;
+	
+}
+.silver_level{
+	background-color:silver;
+		color:black;
+
+}
+.platinum_level{
+	background-color:#E5E4E2;
+		color:black;
+}
+.family_pack{
+	background-color:#DB53FB;
+	color:black;
+}
+.titles{
+	background-color:#DB53FB;
+		color:black;
+}
+/*PLANS TABLE END*/
+
+/*ACCORDION CSS START
+REFERENCES:
+
+Code Boxx. (2019). 3 Steps Simple Responsive Accordion With Pure CSS - Code Boxx. [online] 
+Available at: https://code-boxx.com/simple-responsive-accordion-pure-css/ [Accessed 25 Nov. 2019].
+*/
+/*TABLE STYLING START*/
+.genre{
+	background-color: #505050;
+border: 5px solid #DB53FB;
+}
+.artist{
+	color:#000000;
+	font-size: 22px;
+}
+/*TABLE STYLING END*/
+/* [THE ENTIRE TAB] */
+.tab {
+  position: relative;
+  margin: 2px;
+  max-width: 600px;
+}
+
+/* [THE LABEL] */
+.tab input {
+  display: none;
+}
+.tab label {
+  display: block;
+  background: #505050;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+.tab label::after {
+  content: "\25b6";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: all 0.4s;
+}
+.tab input[type=checkbox]:checked + label::after,
+.tab input[type=radio]:checked + label::after {
+  transform: rotate(90deg);
+}
+
+/* [THE CONTENTS] */
+.tab-content {
+  overflow: hidden;
+  background: #000000;
+  /* CSS animation will not work with auto height */
+  /* This is why we use max-height */
+  transition: max-height 0.4s; 
+  max-height: 0;
+}
+.tab-content p {
+  margin: 20px;
+}
+.tab input:checked ~ .tab-content {
+  /* Set the max-height to a large number */
+  /* Or 100% viewport height */
+  max-height: 100vh;
+}
+/*ACCORDION CSS END*/
+
+.textmessageleft{
+	text-align: left;
+	width: 92%;
+	padding:10px;
+	font-size:25;
+}
+
+/*ALBUMS START*/
+.albumTable{
+table-layout: fixed ;
+  width: 90% ;
+  background-color: #505050;
+  padding: 15px;
+}
+.albumTd{
+	width: 25%;
+	padding: 15px;
+}
+.smallLetters{
+	font-size:13;
+}
+.featured{
+	border:1px solid #DB53FB;
+}
+/*ALBUMS END*/
+/*IMAGES STYLING START*/
+.guitarIMG{
+	border: 5px solid black;
+}
+.albumIMG{
+	border: 3px solid black;
+}
+/*IMAGES STYLING END*/
+.text{
+	 text-align: justify;
+	text-justify: inter-word;
+		border: 5px solid black;
+
+}
